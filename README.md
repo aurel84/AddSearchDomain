@@ -19,3 +19,5 @@ NOTE: You can have more domains (or less) domains in the array.  The three liste
 - Go to Devices > Profiles & Recources > Profiles:
 - Select Add Profile > Assign Profile to test group > Select Custom Attributes > Paste the contents of the Script >
 - Set an event (login/schedule, etc...)
+
+NOTE: If you use a different MDM Provider, please read their documentation how to deploy policies or scripts.  
