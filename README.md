@@ -3,9 +3,11 @@ Add DNS Search Domains for Mac OSX
 
 ### HOW TO SETUP ###
 1.) Open the script, replace the following entries for searchDomain Array (on line 13):
-- your.domain.1
-- your.domain.2
-- your.domain.2
+- your.domain.1 <- replace this with your own search domain
+- your.domain.2 <- replace this with your own search domain, or delete it
+- your.domain.2 <- replace this with your own search domain, or delete it
+
+NOTE: You can have more domains (or less) domains in the array.  The three listed are just an example.  
 
 2.) TEST the script on a local computer, with your own search domains added.
 
