@@ -18,7 +18,7 @@ serviceList=( $(networksetup -listallnetworkservices) ) # looks for available in
 for interface in "${serviceList[@]}";
 do
 
-  result=$(networksetup -setsearchdomains "${interface}" "${searchDomains[@]}") # for each interface that has been detected, adds the search domain from the array in line 3
+  result=$(networksetup -setsearchdomains "${interface}" "${searchDomains[@]}") # for each interface that has been detected, adds the search domain from the array in line 13
 
   if result="An asterisk (*) denotes that a network service is disabled. is not a recognized network service."; then
 
