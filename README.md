@@ -18,6 +18,6 @@ NOTE: You can have more domains (or less) domains in the array.  The three liste
 2.) Deploy the script as a policy or a custom script... as an example using VMware AirWatch:
 - Go to Devices > Profiles & Recources > Profiles:
 - Select Add Profile > Assign Profile to test group > Select Custom Attributes > Paste the contents of the Script >
-- Set an event (login/schedule, etc...)
+- Set an event (login/schedule, etc...) for how often or when you want the script to run.  
 
 NOTE: If you use a different MDM Provider, please read their documentation how to deploy policies or scripts.  
