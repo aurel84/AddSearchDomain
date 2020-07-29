@@ -21,3 +21,5 @@ do
     networksetup -setdnsservers "$interface" "${dnsServers[@]}" > /dev/null 2>&1 # For each interface that has been detected, adds the ip address from the array in line 5
 
 done
+
+exit
