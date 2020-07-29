@@ -9,7 +9,7 @@
 searchDomains=(your.search.domain) # domains go here (replace the temporary one), leave a space between domains
 dnsServers=(1.2.3.4) # ip addresses go here (replace the temporary one), leave a space between addresses
 
-IFS=$'\n' # Preserves spaces for network services (e.g. Thunderbolt Bridge)
+IFS=$'\n' # Preserves spaces for network services (e.g. Thunderbolt Bridge) to prevent word-splitting
 serviceList=( $(networksetup -listallnetworkservices) ) # Looks for available interfaces on MacBook (Wi-Fi, Ethernet, USB, Bluetooth, etc...)
 unset IFS
 
